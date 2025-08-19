@@ -2,7 +2,7 @@ import express from 'express';
 import bodyParser from 'body-parser';
 import { verifySignature } from './verifySign.js';
 const app = express();
-const PORT = 3000;
+const PORT = 4000;
 
 // To parse JSON body as a raw buffer for signature verification
 app.use(bodyParser.raw({ type: 'application/json' }));

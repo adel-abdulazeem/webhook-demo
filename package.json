@@ -4,7 +4,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
-    "dev": "nodemon receiver.js"
+    "dev": "nodemon node/server.js"
   },
   "keywords": [],
   "author": "",
